@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Personal Statement"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-### Personal Statement
 Hello, my name is Kaelan and I am currently pursuing a Master's degree in Computer Science at Budapest University of Technology and Economics. My previous research has primarily focused on cloud computing and microservices, and I am well-versed in Kubernetes and distributed microservices.
 
 However, I am now looking to delve deeper into the field of machine learning, particularly in its intersection with cloud computing and computer vision. As someone who has always been fascinated by the power of technology to enhance human lives, I believe that this field has immense potential for societal impact.
