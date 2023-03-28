@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Kaelan's page"
 title_separator          : "-"
 name                     : &name "Fei Wang (Kalean)"
 description              : &description "personal description"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kaelan"
+  name             : "Kaelan (Fei Wang)"
   avatar           : "profile.png"
   bio              : "Msc Budapest University of Technology and Economics"
   location         : "Budapest, Kisfaludy, Hungary"
