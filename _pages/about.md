@@ -1,4 +1,4 @@
----	---
+---
 permalink: /	permalink: /
 excerpt: "About me"	excerpt: "About me"
 author_profile: true	author_profile: true
