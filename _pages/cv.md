@@ -23,6 +23,15 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
+Research experience
+======
+* Autumn 2022: Research and Analysis of Double Spend Attacking on PoW Blockchain
+ * Institution: Budapest University of Technology and Economics
+ * Supervisor: Tapolcai János, 
+* Spring 2023: Research on Performance Test and Aggregation Characteristics of ECDSA, Schnorr, BLS Encryption Algorithms
+ * Institution: Budapest University of Technology and Economics	
+ * Supervisor: Tapolcai János, 
+
 Work experience
 ======
 * 2014-2022: Alibaba Taobao e-commerce
