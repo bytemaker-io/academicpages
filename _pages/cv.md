@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,21 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BSc. Shangluo University, majoring in Computer Science and techonology 2018
+* MSc. Budapest University of Technology and Economics, majoring in Computer engineering 2024
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2019: Beetle software development studio
+  * Position: Founder and developer
+  * Introduction:
+* 2020: Douyin e-commerce
+  * Position: Founder
+  * Introduction:
+* 2021: Popspace internet technology company
+  * Position: Founder and developer
+  * Introduction:
   
 Skills
 ======
