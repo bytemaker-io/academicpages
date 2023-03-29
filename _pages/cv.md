@@ -11,9 +11,17 @@ redirect_from:
 
 Education
 ======
-* BSc. Shangluo University, majoring in Computer Science and techonology 2018
-* MSc. Budapest University of Technology and Economics, majoring in Computer engineering 2024
+* BSc. Shangluo University, majoring in Computer Science and techonology 2014-2018
+* MSc. Budapest University of Technology and Economics, majoring in Computer engineering 2022-2024
 
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
 Work experience
 ======
@@ -30,33 +38,5 @@ Work experience
   * Position: Founder and developer
   * Introduction:
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
