@@ -17,13 +17,16 @@ Education
 
 Work experience
 ======
-* 2019: Beetle software development studio
+* 2014-2022: Alibaba Taobao e-commerce
+  * Position: Founder
+  * Introduction:
+* 2019-2021: Beetle software development studio
   * Position: Founder and developer
   * Introduction:
 * 2020: Douyin e-commerce
   * Position: Founder
   * Introduction:
-* 2021: Popspace internet technology company
+* 2021-2022: Popspace internet technology company
   * Position: Founder and developer
   * Introduction:
   
