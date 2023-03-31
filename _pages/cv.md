@@ -20,7 +20,7 @@ Skills
 * Development skills
   * Familiar with OOP principles
   * Familiar with programming language: Java
-		 * Used before: Go, Python
+	 + Used before: Go, Python
   * Familiar with Spring framework and MySQL database
   * Familiar with Redis
   * Familiar with MQ of RocketMQ
@@ -32,8 +32,8 @@ Skills
   * Basic understanding of Devops(Gitlab,Jenkins,Harbor)
   * Basic understanding of ELK stack
   * Basic understanding of Load Balancer
-  		* Layer4: LVS (DR, NAT, TUN)
-  		* Layer7: Haproxy and Nginx
+  		+ Layer4: LVS (DR, NAT, TUN)
+  		+ Layer7: Haproxy and Nginx
   
 Research experience
 ======
