@@ -16,22 +16,33 @@ Education
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Basic understanding of data structures, operating systems, computer networks, and computer organization and architecture.
+* Development skills
+  * Familiar with OOP principles
+  * Proficient in programming languages: Java and Go
+  * Familiar with Spring framework and MySQL database
+  * Familiar with Redis
+  * Familiar with MQ of RocketMQ
+  * Familiar with version control tool Git
+  * Familiar in RESTful API and microservices architecture
+  * Familiar with Docker containerization and Kubernetes container orchestration
+  * Basic knowledgement in Linux. 
+  * Basic understanding of Service Mesh of Istio
+  * Basic understanding of Devops(Gitlab,Jenkins,Harbor)
+  * Basic understanding of ELK stack
+  * Basic understanding of Load Balancer
+  		* Layer4: LVS (DR, NAT, TUN)
+  		* Layer7: Haproxy and Nginx
+  
 Research experience
 ======
 * Autumn 2022: Research and Analysis of Double Spend Attacking on PoW Blockchain
  * Institution: Budapest University of Technology and Economics
- * Supervisor: Tapolcai János, 
+ * Supervisor: Dr.Tapolcai János, Dr.Bence Ladóczki 
 * Spring 2023: Research on Performance Test and Aggregation Characteristics of ECDSA, Schnorr, BLS Encryption Algorithms
  * Institution: Budapest University of Technology and Economics	
- * Supervisor: Tapolcai János, 
-
+ * Supervisor: Dr.Bence Ladóczki 
+ 
 Work experience
 ======
 * 2014-2022: Alibaba Taobao e-commerce
