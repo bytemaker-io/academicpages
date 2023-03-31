@@ -19,7 +19,8 @@ Skills
 * Basic understanding of data structures, operating systems, computer networks, and computer organization and architecture.
 * Development skills
   * Familiar with OOP principles
-  * Proficient in programming languages: Java and Go
+  * Familiar with programming language: Java
+		 * Used before: Go, Python
   * Familiar with Spring framework and MySQL database
   * Familiar with Redis
   * Familiar with MQ of RocketMQ
@@ -47,16 +48,16 @@ Work experience
 ======
 * 2014-2022: Alibaba Taobao e-commerce
   * Position: Founder
-  * Introduction:
+  * Introduction: In 2014, I opened a small online store selling various recharge cards, such as mobile phone top-ups and game vouchers. Starting in 2018, I began selling various online discount coupons by obtaining resources through web crawling.
 * 2019-2021: Beetle software development studio
   * Position: Founder and developer
-  * Introduction:
+  * Introduction:After spending a year learning the fundamentals of web development, I began taking on outsourcing projects. Through these projects, I learned how to develop web applications with complex business logic and communicate with clients to meet their needs.
 * 2020: Douyin e-commerce
   * Position: Founder
-  * Introduction:
+  * Introduction:In 2020, due to the spread of the COVID-19 pandemic, most Chinese people were staying at home. So I seized the opportunity of short video e-commerce and started doing unmanned live streaming to sell various general merchandise. In this project, I used two months to earn $30,000.
 * 2021-2022: Popspace internet technology company
   * Position: Founder and developer
-  * Introduction:
+  * Introduction:In 2021, I found two partners and transformed the studio I established in 2019 into a company, while continuing to operate the original software outsourcing business. However, I withdrew from the company in 2022 because I no longer reside in China.
   
 
 
