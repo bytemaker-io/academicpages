@@ -32,8 +32,8 @@ Skills
   * Basic understanding of Devops(Gitlab,Jenkins,Harbor)
   * Basic understanding of ELK stack
   * Basic understanding of Load Balancer
-  		+ Layer4: LVS (DR, NAT, TUN)
-  		+ Layer7: Haproxy and Nginx
+  	+ Layer4: LVS (DR, NAT, TUN)
+  	+ Layer7: Haproxy and Nginx
   
 Research experience
 ======
