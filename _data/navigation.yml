@@ -13,6 +13,8 @@ main:
   #   url: /portfolio/
   - title: "CV"
     url: /cv/
+  - title: "Github"
+    url: "https://github.com/bytemaker-io"
   - title: "Blog Posts"
     url: /year-archive/
     
