@@ -7,8 +7,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
+## What I am doing now
 
-# Personal Statement
+I recently got the domain name bytemaker.io and plan to develop a programmer community. Members can connect, share knowledge, collaborate on projects, and participate in coding challenges and events. The platform will also offer job listings and freelance opportunities. My goal is to create an inclusive space where programmers at all skill levels can learn and grow together.
+
+## Personal Statement
 my name is Kaelan and I am currently pursuing a Master’s degree in Computer Science at Budapest University of Technology and Economics. My previous research has primarily focused on cloud computing and microservices, and I am well-versed in Kubernetes and distributed microservices.
 
 However, I am now looking to delve deeper into the field of machine learning, particularly in its intersection with cloud computing and computer vision. As someone who has always been fascinated by the power of technology to enhance human lives, I believe that this field has immense potential for societal impact.
