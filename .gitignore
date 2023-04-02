@@ -1,2 +1,8 @@
 _site/
 
+.dockerignore
+.gitignore
+.DS_Store
+.gitignore
+Gemfile.lock
+.gitignore
