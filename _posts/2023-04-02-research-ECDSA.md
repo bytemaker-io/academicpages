@@ -1,7 +1,7 @@
 ---
 title: 'Research on ECDSA'
 date: 2023-04-02
-permalink: /posts/2023/08/blog-post-4/
+permalink: /posts/2023/04/blog-post-4/
 tags:
   - cool posts
   - category1
