@@ -8,26 +8,66 @@ tags:
   - category2
 ---
 
-### Abstract
+## Abstract
 In today's era of the internet, data security has become an increasingly important concern. In network communication, encryption technology plays a crucial role in ensuring the confidentiality, integrity, and authenticity of data. One widely used encryption algorithm is ECDSA (Elliptic Curve Digital Signature Algorithm), which is based on the mathematical properties of elliptic curves.
 
 In this article, I will dive into the technical details of ECDSA and explore how it works, its security features, and its applications. I will also discuss the differences between ECDSA and other encryption algorithms, and provide examples of how it is used in real-world scenarios.
-### Introduction
+## Introduction
 ECDSA (Elliptic Curve Digital Signature Algorithm) is a public-key cryptography algorithm based on elliptic curve theory. It is used to verify the authenticity of digital signatures and ensure the integrity and confidentiality of data transmitted over the internet. ECDSA is widely used in many applications, including secure communications, digital certificates, and blockchain technology. The algorithm involves selecting a suitable elliptic curve and a base point, generating a private key and public key pair, and using a digital signature scheme to sign and verify messages. Compared to traditional RSA-based schemes, ECDSA provides equivalent security with shorter key sizes and faster processing speeds, making it a popular choice for secure communications and transactions.
 
 
 Here first briefly introduce the process of ECDSA:
 
-1. Choose an elliptic curve and a base point.
-2. Generate a private key and a public key.
-3. Hash the message.
-4. Choose a random number r.
-5. Calculate the point R = rG.
-6. Calculate the inverse of r mod n, denoted as r^-1.
-7. Calculate s = r^-1(H + dk).
-8. Send the message and the digital signature to the receiver.
-9. The receiver uses the sender's public key Q, signature s, and hashed message H to compute point P = sG - HQ.
-10. Verify if point P is equal to point R. If they are equal, then the signature is valid.
 
 ECDSA can use multiple elliptic curves, but in practical applications, some recognized standard curves are usually used, such as those recommended by NIST. NIST has recommended multiple elliptic curves, including P-256, P-384, and P-521, which use different sizes of finite field orders and provide different levels of security. P-256 is one of the most commonly used curves, which uses a 256-bit finite field order and provides 128-bit security strength.
 
+NIST is the abbreviation for the National Institute of Standards and Technology, which is a non-regulatory agency of the United States federal government. It is mainly responsible for research and development in science, technology, and measurements, as well as the formulation of related standards and guidelines. In the field of cryptography, NIST is responsible for developing and recommending standard algorithms and curves, such as the elliptic curves used in AES encryption algorithm and ECDSA digital signature algorithm.
+
+In this article, we analyze ECDSA using the P-256 elliptic curve
+
+
+## Detailed steps of ECDSA
+The equation of the elliptic curve used in ECDSA is **y^2 = x^3 + ax + b**, where a and b are constants over a finite field and their specific values depend on the chosen curve. For the P-256 curve, the value of a is **-3** and the value of b is **41058363725152142129326129780047268409114441015993725554835256314039467401291.**
+
+ ![](https://malware.news/uploads/default/original/2X/f/f7507cb1f926e02e63512b84b024ef24f32bfab0.png)
+
+ECDSA is performed on an elliptic curve, and the size of the domain depends on the specific curve selected. For the P-256 curve, the size of the domain is **2^256-2^224+2^192+2^96-1**, which is represented in hexadecimal as **FFFFFFFF 00000001 00000000 00000000 00000000 FFFFFFFF FFFFFFFF**. This value is approximately **1.1579 x 10^77**.
+
+Because the P-256 curve is a special elliptic curve, its parameters are carefully chosen to make addition and multiplication operations on this curve more efficient. Additionally, the curve has some special properties, such as reversibility and symmetry, that make operations on the curve easier to implement. Furthermore, the curve has been extensively studied and widely used, and there are many optimization algorithms available specifically for this curve, which further enhances its processing efficiency.
+
+The P-256 curve is a reversible curve, which means that any point on the curve (except for the point at infinity) can be obtained through certain mathematical operations (such as addition, subtraction, and multiplication) with another point on the curve. Similarly, given two points on the curve, one can compute the discrete logarithm problem to derive the mathematical operation that maps one point to the other. This property is one of the foundations of elliptic curve cryptography (ECC) and a key factor in ensuring the security of the algorithm.
+
+### Base point
+
+The base point of ECDSA (Elliptic Curve Digital Signature Algorithm) is selected based on specific properties of the elliptic curve and generally needs to satisfy the following conditions:
+
+The base point is a fixed point on the elliptic curve and cannot be obtained through addition or subtraction of other points on the curve.
+The order of the base point should be a large prime number to ensure that multiples of the base point can cover all points on the elliptic curve.
+The base point selection should be public, and all users need to use the same base point.
+For the P-256 curve, its base point is predetermined and has been made public. Its coordinates are:
+
+x: 115792089210356248762697446949407573530086143415290314195533631308867097853951
+
+y: 41058363725152142129326129780047268409114441015993725554835256314039467401291
+
+Such a base point selection is determined by cryptographic researchers after a series of testing and analysis, with the goal of ensuring security and efficiency.
+
+### Generator
+
+In mathematics, a generator refers to an element of a group such that every other element of the group can be obtained by repeatedly applying the group's binary operation to the generator.
+
+In cryptography, generators are often used in key exchange and digital signature algorithms to create random numbers and keys. For example, in the Diffie-Hellman key exchange algorithm, selecting a generator and sharing that value is a crucial step in implementing the key exchange.
+
+### Modular Inverse
+
+In mathematics, for a given number a and modulus n, if there exists another number b such that the product of a and b modulo n equals 1, then we call b the modular inverse of a mod n, also known as the reciprocal of a modulo n. The notation is represented as b ≡ a⁻¹ (mod n). If there is no modular inverse of a modulo n, then a is said to be non-invertible modulo n.
+
+### Generate Private Key
+
+1. Randomly choose a private key d, satisfying 1 < d < n-1, where n is the order of the base point G;
+2. Calculate the public key point Q = dG through the multiplication operation of points on the elliptic curve;
+3. Choose a random number k, satisfying 1 < k < n-1, calculate the x coordinate of the point (kG), denoted as r;
+4. Calculate the hash value h of the message and convert it to a large integer;
+5. Calculate the first part of the signature: s1 = (h + rd) / k, note that the inverse of k, k^-1, needs to be calculated;
+6. Calculate the second part of the signature: s2 = k^-1 mod n;
+7. The signature is (r, s), where r is the x coordinate calculated in step 3, and s is the value calculated in steps 5 and 6.
