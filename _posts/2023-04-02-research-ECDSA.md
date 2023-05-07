@@ -73,4 +73,7 @@ Then, calculate a value r = x1 mod n. If r = 0, then select another random numbe
 
 The signature value (r, s) is the ECDSA signature of the message M.
 #### Verify signature
+<<<<<<< HEAD
 To verify the signature (r, s), you need to know the public key Q and the message M. First, calculate the hash value of the message hash(M). Then, calculate a value w = s^(-1) mod n, where s^(-1) is the multiplicative inverse of s mod n. Next, calculate two points u1 = (hash(M) * w) mod n and u2 = (r * w) mod n. Then calculate the point (x, y) = u1 * G + u2 * Q. If x mod n = r, the signature is valid. Otherwise, the signature is invalid.
+=======
+To verify the signature (r, s), you need to know the public key Q and the message M. First, calculate the hash value of the message hash(M). Then, calculate a value w = s^(-1) mod n, where s^(-1) is the multiplicative inverse of s mod n. Next, calculate two points u1 = (hash(M) * w) mod n and u2 = (r * w) mod n. Then calculate the point (x, y) = u1 * G + u2 * Q. If x mod n = r, the signature is valid. Otherwise, the signature is invalid.hhh
