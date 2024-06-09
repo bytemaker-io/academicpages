@@ -7,9 +7,9 @@
 
 # Site Settings
 locale: "en-US"
-title: "Kaelan's page"
+title: "Fei Wang"
 title_separator: "-"
-name: &name "Fei Wang (Kalean)"
+name: &name "Fei Wang"
 description: &description "personal description"
 url: https://wangfei.dev # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
@@ -81,7 +81,7 @@ author:
   name: "Fei Wang"
   avatar: "profile.png"
   bio: "Msc Budapest University of Technology and Economics"
-  location: "Budapest, Kisfaludy, Hungary"
+  location: "Budapest, Hungary"
   employer:
   pubmed:
   googlescholar:
@@ -100,7 +100,7 @@ author:
   instagram:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
-  linkedin: "https://www.linkedin.com/in/fei-wang-113592270/"
+  linkedin: "fei-wang-113592270"
   orcid:
   pinterest:
   soundcloud:
